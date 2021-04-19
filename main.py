@@ -1,5 +1,4 @@
 import os
-
 from flask import Flask
 
 app = Flask(__name__)
@@ -7,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Привет от приложения Flask"
+    return "Привет от приложения Flask 2"
 
 
 if __name__ == '__main__':
